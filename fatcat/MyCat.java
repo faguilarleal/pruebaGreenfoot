@@ -34,5 +34,10 @@ public class MyCat extends Cat
         if(isHungry()){
             eat();
         }
+        sleep(2);
+        if (isBored()){
+            shoutHooray();
+        }
+        
     }    
 }
